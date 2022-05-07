@@ -1,0 +1,29 @@
+            psnr   ssim   vmaf   niqe
+Mask=False   NaN    NaN    NaN    NaN
+Mask=True   0.75  0.901  0.929 -0.859
+
+
+Metric=psnr:
+            crowd_run  kayak_trip  making_alcohol  tractor  wedding_party
+Mask=False        NaN         NaN             NaN      NaN            NaN
+Mask=True       0.292       0.909           0.753    0.843          0.953
+
+
+Metric=ssim:
+            crowd_run  kayak_trip  making_alcohol  tractor  wedding_party
+Mask=False        NaN         NaN             NaN      NaN            NaN
+Mask=True       0.892       0.944           0.818    0.885          0.966
+
+
+Metric=vmaf:
+            crowd_run  kayak_trip  making_alcohol  tractor  wedding_party
+Mask=False        NaN         NaN             NaN      NaN            NaN
+Mask=True       0.955       0.944           0.885    0.903          0.958
+
+
+Metric=niqe:
+            crowd_run  kayak_trip  making_alcohol  tractor  wedding_party
+Mask=False        NaN         NaN             NaN      NaN            NaN
+Mask=True      -0.962      -0.831           -0.83   -0.888         -0.787
+
+
