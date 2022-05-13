@@ -1,0 +1,9 @@
+Metric,Mask,Pearson,Spearman
+niqe,False,0.82978,0.81752
+niqe,True,0.87753,0.83724
+psnr,False,0.80152,0.78156
+psnr,True,0.82753,0.80628
+ssim,False,0.91626,0.88837
+ssim,True,0.91483,0.88366
+vmaf,False,0.94037,0.90947
+vmaf,True,0.93434,0.90469

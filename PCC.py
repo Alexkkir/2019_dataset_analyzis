@@ -6,7 +6,7 @@ import pandas as pd
 from io import StringIO
 
 data = pd.read_csv('final_results/merged.csv')
-names = sorted([*{*data['Name']}])[:]
+names = sorted(set(data['Name']))
 metrics = ['psnr', 'ssim', 'vmaf', 'niqe']
 
 tables_str = {metric: dict() for metric in metrics}
